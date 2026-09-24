@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "FrqeqY4lDyY=",
+  "success": true,
+  "projectFilePath": "/Users/tcrichton/ticket-management/backend/backend.csproj",
+  "expectedPackageFiles": [
+    "/Users/tcrichton/.nuget/packages/microsoft.aspnetcore.openapi/10.0.12/microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
+    "/Users/tcrichton/.nuget/packages/microsoft.openapi/2.12.0/microsoft.openapi.2.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}
