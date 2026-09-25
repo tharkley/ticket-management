@@ -1,17 +1,17 @@
-import { useEffect, useState } from 'react'
-import Login from './components/Login'
-import { AuthProvider } from './AuthContext'
-import './App.css'
+import { useEffect, useState } from 'react';
+import Login from './components/Login';
+import { AuthProvider } from './AuthContext';
+import './App.css';
 
 function App() {
-  const [message, setMessage] = useState('Loading...')
+  const [message, setMessage] = useState('Loading...');
 
   useEffect(() => {
     fetch('/api/hello')
       .then((response) => response.json())
       .then((data) => setMessage(data.message))
-      .catch(() => setMessage('Failed to connect to the backend.'))
-  }, [])
+      .catch(() => setMessage('Failed to connect to the backend.'));
+  }, []);
 
   return (
     <AuthProvider>
@@ -20,7 +20,7 @@ function App() {
         <p className="message">{message}</p>
       </main>
     </AuthProvider>
-  )
+  );
 }
 
-export default App
+export default App;

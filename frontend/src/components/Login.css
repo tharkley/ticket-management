@@ -46,9 +46,10 @@
   color: #8b98a7;
 }
 
-.login a {
+.link {
   color: #0f80d8;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .login button {

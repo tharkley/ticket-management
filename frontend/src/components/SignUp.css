@@ -1,0 +1,11 @@
+.signup-button {
+  background: #0a84e7;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-inline: 4rem;
+  inline-size: calc(100% - 8rem);
+}
