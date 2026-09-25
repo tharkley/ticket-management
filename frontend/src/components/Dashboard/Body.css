@@ -1,0 +1,28 @@
+.body {
+  display: flex;
+  inline-size: 100%;
+  block-size: 100%;
+  min-block-size: 0;
+  gap: 1rem;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  block-size: 100%;
+  inline-size: 100%;
+  min-block-size: 0;
+  gap: 1rem;
+}
+
+.body-header {
+  display: flex;
+  flex-direction: column;
+  inline-size: 100%;
+  align-items: flex-start;
+}
+
+.body-header h2 {
+  color: black;
+}

@@ -1,0 +1,30 @@
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  block-size: 100%;
+  inline-size: 100%;
+  min-block-size: 0;
+  background: rgba(245, 247, 249, 0.9);
+  border: 1px solid #e8edf3;
+  border-radius: 20px;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.04);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  padding: 0.25rem 1rem;
+  block-size: 100%;
+  min-block-size: 0;
+  min-inline-size: 0;
+  box-sizing: border-box;
+}
+
+.section:last-child {
+  inline-size: 100%;
+  min-inline-size: 0;
+  gap: 1rem;
+  box-sizing: border-box;
+}
