@@ -1,11 +1,6 @@
 const ArrowIcon = () => {
   return (
-    <svg
-      className="profile-arrow"
-      viewBox="0 0 12 12"
-      aria-hidden="true"
-      focusable="false"
-    >
+    <svg className="profile-arrow" viewBox="0 0 12 12" aria-hidden="true" focusable="false">
       <path
         d="M2 4.5L6 8l4-3.5"
         fill="none"
@@ -15,7 +10,7 @@ const ArrowIcon = () => {
         strokeLinejoin="round"
       />
     </svg>
-  )
-}
+  );
+};
 
-export default ArrowIcon
+export default ArrowIcon;

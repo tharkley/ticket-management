@@ -1,4 +1,4 @@
-import './RecentTickets.css'
+import './RecentTickets.css';
 
 const RecentTickets = () => {
   return (
@@ -19,7 +19,7 @@ const RecentTickets = () => {
         <tbody></tbody>
       </table>
     </div>
-  )
-}
+  );
+};
 
-export default RecentTickets
+export default RecentTickets;

@@ -1,7 +1,7 @@
-import TicketOverview from './TicketOverview'
-import RecentTickets from './RecentTickets'
-import RecentActivity from './RecentActivity'
-import './Body.css'
+import TicketOverview from './TicketOverview';
+import RecentTickets from './RecentTickets';
+import RecentActivity from './RecentActivity';
+import './Body.css';
 
 const Body = () => {
   return (
@@ -39,7 +39,7 @@ const Body = () => {
         <RecentActivity />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Body
+export default Body;

@@ -1,4 +1,4 @@
-import './SocialIcons.css'
+import './SocialIcons.css';
 
 const SocialIcons = () => {
   const socialProviders = [
@@ -39,21 +39,16 @@ const SocialIcons = () => {
         </svg>
       ),
     },
-  ]
+  ];
   return (
     <div className="social-row" aria-label="Social login options">
       {socialProviders.map(({ label, icon }) => (
-        <button
-          key={label}
-          className="social-btn"
-          type="button"
-          aria-label={label}
-        >
+        <button key={label} className="social-btn" type="button" aria-label={label}>
           {icon}
         </button>
       ))}
     </div>
-  )
-}
+  );
+};
 
-export default SocialIcons
+export default SocialIcons;

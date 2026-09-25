@@ -1,4 +1,4 @@
-import './ActivityEntry.css'
+import './ActivityEntry.css';
 
 const ActivityEntry = ({ icon, activity, description, timeElapsed }) => {
   return (
@@ -10,7 +10,7 @@ const ActivityEntry = ({ icon, activity, description, timeElapsed }) => {
       </div>
       <span className="time-elapsed">{timeElapsed}</span>
     </div>
-  )
-}
+  );
+};
 
-export default ActivityEntry
+export default ActivityEntry;

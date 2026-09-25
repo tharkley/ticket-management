@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import { useAuth } from '../../AuthContext'
-import ArrowIcon from '../Icons/ArrowIcon'
-import ProfileIcon from '../Icons/ProfileIcon'
-import './Header.css'
+import { useState } from 'react';
+import { useAuth } from '../../AuthContext';
+import ArrowIcon from '../Icons/ArrowIcon';
+import ProfileIcon from '../Icons/ProfileIcon';
+import './Header.css';
 
 const Header = () => {
-  const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false)
+  const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false);
   const handleProfileClick = () => {
-    setIsProfileMenuOpen(!isProfileMenuOpen)
-  }
-  const { setIsLoggedIn } = useAuth()
+    setIsProfileMenuOpen(!isProfileMenuOpen);
+  };
+  const { setIsLoggedIn } = useAuth();
   return (
     <header className="header">
       <input
@@ -39,7 +39,7 @@ const Header = () => {
         )}
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

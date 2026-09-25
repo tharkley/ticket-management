@@ -1,12 +1,7 @@
 /* eslint-disable no-unused-vars */
-import './TicketOverview.css'
+import './TicketOverview.css';
 
-const TicketOverview = ({
-  icon,
-  title,
-  numTickets,
-  percentage: { amount, isPositiveChange },
-}) => {
+const TicketOverview = ({ icon, title, numTickets, percentage: { amount, isPositiveChange } }) => {
   return (
     <section className="ticket-overview">
       {/* place for svg up iconw */}
@@ -18,7 +13,7 @@ const TicketOverview = ({
         <span>{amount}% vs last week</span>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default TicketOverview
+export default TicketOverview;

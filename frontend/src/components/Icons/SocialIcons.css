@@ -17,7 +17,8 @@
   background: rgba(255, 255, 255, 0.45);
   padding: 0;
   cursor: pointer;
-  color: #1d2732;
+  color: #ffffff;
+  background: #0a84e7;
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease;

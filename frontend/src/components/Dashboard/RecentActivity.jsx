@@ -1,5 +1,5 @@
-import ActivityEntry from './ActivityEntry'
-import './RecentActivity.css'
+import ActivityEntry from './ActivityEntry';
+import './RecentActivity.css';
 
 const RecentActivity = () => {
   return (
@@ -12,7 +12,7 @@ const RecentActivity = () => {
         timeElapsed="2m ago"
       />
     </div>
-  )
-}
+  );
+};
 
-export default RecentActivity
+export default RecentActivity;

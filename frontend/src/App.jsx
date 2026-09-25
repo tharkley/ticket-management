@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import Login from './components/Login';
+import AuthScreen from './components/AuthScreen';
 import { AuthProvider } from './AuthContext';
 import './App.css';
 
@@ -16,7 +16,7 @@ function App() {
   return (
     <AuthProvider>
       <main className="app-shell">
-        <Login></Login>
+        <AuthScreen />
         <p className="message">{message}</p>
       </main>
     </AuthProvider>

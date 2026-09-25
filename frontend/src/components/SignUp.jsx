@@ -1,8 +1,13 @@
 import './SignUp.css';
 
 const SignUp = ({ onBackToLogin }) => {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    onBackToLogin();
+  };
+
   return (
-    <>
+    <form onSubmit={handleSubmit}>
       <h1>Create your account</h1>
       <span>Sign up and get started with your support account today.</span>
       <label htmlFor="fullName">Full Name</label>
@@ -13,16 +18,16 @@ const SignUp = ({ onBackToLogin }) => {
       <input id="password" placeholder="Create a password" type="password"></input>
       <label htmlFor="confirmPassword">Confirm Password</label>
       <input id="confirmPassword" placeholder="Confirm your password" type="password"></input>
-      <button type="button" onClick={onBackToLogin} className="signup-button">
+      <button type="submit" className="signup-button">
         Sign Up
       </button>
-      <p>
+      <p className="signin-section">
         Already have an account?{' '}
-        <span className="link" onClick={onBackToLogin}>
+        <button type="button" className="link" onClick={onBackToLogin}>
           Sign in
-        </span>
+        </button>
       </p>
-    </>
+    </form>
   );
 };
 

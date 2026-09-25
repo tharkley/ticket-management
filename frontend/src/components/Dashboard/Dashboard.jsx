@@ -1,7 +1,7 @@
-import './Dashboard.css'
-import Header from './Header'
-import Body from './Body'
-import Tabbar from './Tabbar'
+import './Dashboard.css';
+import Header from './Header';
+import Body from './Body';
+import Tabbar from './Tabbar';
 
 const Dashboard = () => {
   return (
@@ -14,7 +14,7 @@ const Dashboard = () => {
         <Body />
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default Dashboard
+export default Dashboard;
