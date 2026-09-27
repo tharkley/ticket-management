@@ -6,11 +6,11 @@ const TicketOverview = ({ icon, title, numTickets, percentage: { amount, isPosit
     <section className="ticket-overview">
       {/* place for svg up iconw */}
       <h3>{title}</h3>
-      <h1>{numTickets}</h1>
+      <h2>{numTickets}</h2>
       <div className="ticket-overview-change">
         {/* place for svg up up/down arrow */}
         <span></span>
-        <span>{amount}% vs last week</span>
+        <p>{amount}% vs last week</p>
       </div>
     </section>
   );

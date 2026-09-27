@@ -1,3 +1,14 @@
 .tabbar-container {
-  inline-size: 15%;
+  display: flex;
+  block-size: 100%;
+  min-block-size: 0;
+}
+
+.tabbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav a {
+  font-size: 0.75rem;
 }

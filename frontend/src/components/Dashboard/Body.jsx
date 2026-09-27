@@ -2,10 +2,12 @@ import TicketOverview from './TicketOverview';
 import RecentTickets from './RecentTickets';
 import RecentActivity from './RecentActivity';
 import './Body.css';
+import Tabbar from './Tabbar';
 
 const Body = () => {
   return (
     <div className="body">
+      <Tabbar />
       <div className="body-container">
         <div className="body-header">
           <h2>Welcome back, Taylor!</h2>

@@ -23,8 +23,8 @@ const Header = () => {
                   <ProfileIcon />
                 </div>
                 <div className="profile-info">
-                  <span className="profile-name">Taylor Crichton</span>
-                  <span className="profile-role">Agent</span>
+                  <p className="profile-name">Taylor Crichton</p>
+                  <p className="profile-role">Agent</p>
                 </div>
               </div>
             </Dropdown.Toggle>

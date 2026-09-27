@@ -16,9 +16,6 @@
   min-block-size: 0;
   min-inline-size: 0;
   box-sizing: border-box;
-}
-
-.section:last-child {
   inline-size: 100%;
   min-inline-size: 0;
   gap: 1rem;

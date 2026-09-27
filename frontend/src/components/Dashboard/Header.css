@@ -9,6 +9,8 @@
 
 .search-input {
   inline-size: 50%;
+  block-size: 1.75rem;
+  font-size: 0.75rem;
 }
 
 .profile-menu {
@@ -69,4 +71,14 @@
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 0.4rem 0.75rem;
+}
+
+.dropdown button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.dropdown-toggle::after {
+  margin: 0 !important;
 }

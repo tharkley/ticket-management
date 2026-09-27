@@ -5,10 +5,10 @@ const ActivityEntry = ({ icon, activity, description, timeElapsed }) => {
     <div className="activity-entry">
       <div className="icon">{icon}</div>
       <div className="content">
-        <h4 className="activity">{activity}</h4>
+        <p className="activity">{activity}</p>
         <p className="description">{description}</p>
       </div>
-      <span className="time-elapsed">{timeElapsed}</span>
+      <p className="time-elapsed">{timeElapsed}</p>
     </div>
   );
 };

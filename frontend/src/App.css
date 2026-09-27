@@ -9,7 +9,6 @@ body,
 
 body {
   background: #b8c8d5;
-  font-family: Arial, sans-serif;
 }
 
 .app-shell {
@@ -19,22 +18,12 @@ body {
   inline-size: 100%;
   min-block-size: 0;
   background: #b8c8d5;
-  padding: 24px;
+  padding: 1.5rem;
   box-sizing: border-box;
 }
 
-.eyebrow {
-  margin: 0 0 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-size: 0.75rem;
-  color: #0d7ad9;
-  font-weight: 700;
-}
-
 h1 {
-  margin: 0 0 16px;
-  font-size: clamp(2rem, 4vw, 3.2rem);
+  margin: 0;
   line-height: 1.1;
   color: #202833;
 }
